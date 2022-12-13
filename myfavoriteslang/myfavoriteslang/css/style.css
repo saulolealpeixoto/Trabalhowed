@@ -1,0 +1,109 @@
+/* 
+ESSA CLASSE NÃO SERVE DE NADA,
+APENAS PARA VOCÊS VEREM OS HEXAS
+DAS CORES DO LAYOUT 
+*/
+.cores{
+    color: #4A56F9;
+    color: #BE123C;
+    color: #1F2937;
+    color: #F1F5F9;
+    color: #64748B;
+    color: #3A5479
+}
+
+/*
+################### 
+################### 
+SEU CÓDIGO 
+DAQUI PARA BAIXO 
+##################
+##################
+*/
+header{
+    background-color: #F1F5F9;
+    
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 115px;
+    padding: 0px 0px 0px 200px;
+}
+
+section .user{
+    display: flex;
+    margin: auto;
+}
+main{
+    margin: 80px 0px 0px 0px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+   
+}
+input[type="text"] {
+    color: #F1F5F9;
+    background-color: #64748B;
+    height: 30px;
+    width: 365px;
+    padding: 10px 10px 10px 10px;
+    border: 0px;
+    align-items: center;
+    
+}
+input[type="submit"]{
+    color: #F1F5F9;
+    background-color: #4A56F9;
+    height: 54px;
+    font-size: 18px bold;
+    padding: 20px;
+    font-weight: bold;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+li {
+    background-color: #F1F5F9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+    margin: 10px 0px 10px 0px;
+}
+
+section ul li :nth-child(3){
+    font-size: 42px;
+    color: #4A56F9;
+}
+
+.F37021247{
+    margin: 0px;
+    padding: 10px 10px 10px 10px;;
+}
+ul h4{
+    font-size: 20px;
+}
+.J37021247{
+    width: 70%;
+}
+
+footer {
+    padding: 40px 0px 40px 0px;
+    color: #64748B;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 100px 10px 100px;
+}
+.v37021247{
+    color: #BE123C;
+}
+.b37021247{
+    color: #4A56F9;
+}
